@@ -1,0 +1,18 @@
+body{
+  font-family : ubuntu, Helvetica, sans-serif;
+}
+
+#intro{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#card-container{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+img{
+    height: auto;
+}
