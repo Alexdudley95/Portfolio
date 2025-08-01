@@ -91,16 +91,14 @@ input:checked + .slider::before{
     transform:          translateX(38px);
 }
 
-
-#intro{
+.area{
     padding: 20px;
     border-bottom: solid 1px;
     border-color: rgb(189, 188, 187);
+    max-width: 800px;
 }
-#main{
 
-    padding: 20px;
-    border-radius: 8px;
+#main{
     max-width: 800px;
 }
 

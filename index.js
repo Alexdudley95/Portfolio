@@ -21,6 +21,7 @@ const observer = new IntersectionObserver((enteries) => {
 })
 
 
+//tags to be faded in
 const tags = document.querySelectorAll('p, img, .card')
 
 tags.forEach((tag) => {
@@ -30,6 +31,7 @@ tags.forEach((tag) => {
 function darkMode(){
     var body = document.body;
     body.classList.toggle("dark-mode");
+    //can't use the above method for classes/id's
     if(flag){
         $(".card").css("background-color", "#c5c5c5");
         flag = false;
